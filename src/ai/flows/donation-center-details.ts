@@ -10,8 +10,8 @@
 
 import { defineFlow } from '@genkit-ai/flow';
 import { googleAI } from '@genkit-ai/googleai';
+import { ai } from '@genkit-ai/ai'; // ✅ Fix: Import `ai`
 import { z } from 'zod';
-
 
 const GetDonationCenterDetailsInputSchema = z.object({
   name: z.string().describe('The name of the donation center.'),
