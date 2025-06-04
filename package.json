@@ -17,6 +17,7 @@
   "type": "commonjs",
   "dependencies": {
     "@genkit-ai/core": "^1.11.0",
+    "@genkit-ai/flow": "^0.5.17",
     "@genkit-ai/googleai": "^1.11.1",
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-avatar": "^1.1.10",
@@ -43,7 +44,7 @@
     "tailwind-variants": "^1.0.0",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
-    "zod": "^3.25.49"
+    "zod": "^3.25.50"
   },
   "devDependencies": {
     "@types/react": "19.1.6",
