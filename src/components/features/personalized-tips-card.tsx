@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, Lightbulb, Loader2 } from 'lucide-react';
-import { generatePersonalizedTip, PersonalizedTipInput, PersonalizedTipOutput } from '@/ai/flows/personalized-donation-tips';
 import { Alert, AlertTitle, AlertDescription as AlertDesc } from '@/components/ui/alert'; // Renamed to avoid conflict
 
 interface PersonalizedTipsCardProps {

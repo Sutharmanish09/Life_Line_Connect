@@ -12,7 +12,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { AlertCircle, Loader2, MapPin, Clock, Phone, Info } from 'lucide-react';
 import type { DonationCenter } from '@/types';
-import { getDonationCenterDetails, GetDonationCenterDetailsInput, GetDonationCenterDetailsOutput } from '@/ai/flows/donation-center-details';
 import { Alert, AlertTitle, AlertDescription as AlertDesc } from '@/components/ui/alert'; // Renamed AlertDescription
 
 interface DonationCenterDetailsModalProps {
